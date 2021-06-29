@@ -1,7 +1,6 @@
-/*
-注册的路由组件
+/**
+ * 注册页面
  */
-
 import React, { Component } from 'react'
 import { observable } from 'mobx'
 import { observer, inject } from 'mobx-react'
@@ -71,15 +70,16 @@ class Register extends Component {
   toLogin = () => {
     this.props.history.replace(`/login${this.props.location.search}`)
   }
+
   toBack = () => {
     this.props.history.replace(`/login${this.props.location.search}`)
   }
+
   render() {
     // 如果redirectTo有值, 就需要重定向到指定的路由
     const style = {
       marginTop: '10px',
       marginLeft: '105px',
-      //marginRight: '100px',
       fontSize: '17px',
       color: 'red'
     }

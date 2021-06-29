@@ -1,3 +1,6 @@
+/**
+ * 设备配置页面
+ */
 import React, { Component } from 'react'
 import {
   NavBar,
@@ -178,7 +181,6 @@ class My extends Component {
                   onChange={val => {
                     this.handleChange('deviceId', val)
                   }}
-                  ref={el => this.autoFocusInst = el}
               >ID</InputItem>
               {this.deviceIdErrorMsg ? (
                   <div style={style}>{this.deviceIdErrorMsg}</div>

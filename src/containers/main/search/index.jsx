@@ -1,3 +1,6 @@
+/**
+ * 查询统计页面
+ */
 import React, { Component } from 'react'
 import { NavBar, Button } from "antd-mobile";
 import {  Select, message, Card } from 'antd'
@@ -83,7 +86,6 @@ class Search extends Component {
     }
   }
 
-  // get selection as selected option
   state = {
     devices: [],
     deviceMessages: [],

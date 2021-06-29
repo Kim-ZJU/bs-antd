@@ -1,3 +1,6 @@
+/**
+ * 图表展示页面
+ */
 import React, { Component } from 'react'
 import { Button, NavBar } from 'antd-mobile'
 import ReactEcharts  from 'echarts-for-react';

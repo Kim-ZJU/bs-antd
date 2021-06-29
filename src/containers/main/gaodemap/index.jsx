@@ -1,3 +1,6 @@
+/**
+ * 地图展示页面
+ */
 import React, { Component } from "react";
 import {Button, NavBar} from "antd-mobile";
 import { Map, Marker, Polyline } from 'react-amap';

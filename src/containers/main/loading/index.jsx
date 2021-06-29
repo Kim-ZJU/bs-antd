@@ -1,3 +1,6 @@
+/**
+ * 加载页面
+ */
 import React, { Component } from "react";
 import { Icon } from "antd-mobile";
 class Loading extends Component {

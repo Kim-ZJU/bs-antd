@@ -4,11 +4,6 @@ import HomePage from './homePage'
 import Search from './search'
 import My from './my'
 import GaoDeMap from "./gaodemap";
-import { createFromIconfontCN } from '@ant-design/icons';
-
-const IconFont = createFromIconfontCN({
-    scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js',
-});
 
 class Main extends Component {
     render() {
