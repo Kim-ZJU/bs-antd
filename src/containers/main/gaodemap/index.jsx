@@ -45,7 +45,7 @@ class GaoDeMap extends Component {
     let normalDeviceList = [], alertDeviceList = []
     if (res.data.code === 0) {
       if (!result) {
-        message.info("返回错误！", 1)
+        message.info("暂时没有设备！", 1)
       } else {
         result.forEach((r) => {
           if (r.alert) {
@@ -62,14 +62,18 @@ class GaoDeMap extends Component {
             })
           }
           let path = []
-          result1.forEach(m => {
-            if (m.clientId === r.deviceId) {
-              path.push({
-                longitude: m.lng,
-                latitude: m.lat
-              })
-            }
-          })
+          if (!result1) {
+            message.info("暂时没有接受到数据！", 1)
+          } else {
+            result1.forEach(m => {
+              if (m.clientId === r.deviceId) {
+                path.push({
+                  longitude: m.lng,
+                  latitude: m.lat
+                })
+              }
+            })
+          }
           if(path.length) {
             this.state.devicePaths.push(path)
           }

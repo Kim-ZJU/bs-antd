@@ -33,7 +33,7 @@ class HomePage extends Component {
   getSummaryData = async () => {
     const res = await reqDeviceList()
     const result = res.data.content
-    let deviceNumber = 0, alertDevices = 0, onlineDevices = 0
+    let deviceNumber = 0, alertDevices = 0, onlineDevices = 0, msgNumber
     if (res.data.code === 0) {
       if (!result) {
         message.info("返回错误！", 1)
@@ -52,7 +52,11 @@ class HomePage extends Component {
       message.info(res.data.msg, 1)
     }
     const res1 = await reqMsgNumber()
-    let msgNumber = res1.data.content
+    if (res1.data.code === 0) {
+      msgNumber = res1.data.content
+    } else {
+      msgNumber = 0
+    }
     this.setState({deviceNum: deviceNumber, onlineDevice: onlineDevices, alertDevice: alertDevices, msgNum: msgNumber })
     let option = {
       xAxis: {

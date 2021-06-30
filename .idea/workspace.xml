@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce90097-ed4d-41c3-b3b5-bf99c0112c61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/select/search.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/select/search.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/main/gaodemap/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/gaodemap/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/main/homePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/homePage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/main/loading/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/loading/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/main/my/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/my/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/main/search/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/search/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/register/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/register/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +41,7 @@
       <updated>1624954411360</updated>
       <workItem from="1624954413999" duration="63000" />
       <workItem from="1624954492133" duration="11066000" />
+      <workItem from="1625020898676" duration="1183000" />
     </task>
     <servers />
   </component>

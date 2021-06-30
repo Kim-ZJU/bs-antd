@@ -133,6 +133,7 @@ class My extends Component {
     this.deviceIdErrorMsg = ''
     this.deviceNameErrorMsg = ''
     this.deviceAttrErrMsg = ''
+    this.attrValueErrMsg = ''
     this.DeviceInfo[name] = val
     this.modifyDeviceInfo[name] = val
   }
